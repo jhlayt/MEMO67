@@ -1,4 +1,8 @@
 [changelog]
+  [1150-20260125] - Fixed audio reloading. Audio is initialised over two
+  different memory arenas now, one for the platform layer, one for core layer.
+  Only core layer gets reloaded.
+
   [1149-20260118] - Added 'secret' terminal command to hide game specific stuff
   from screenshots. Improved debug hud. More work on website.
 
