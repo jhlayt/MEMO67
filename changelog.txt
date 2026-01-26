@@ -1,4 +1,6 @@
 [changelog]
+  [1151-20260126] - Fixed bug with ui text flag.
+
   [1150-20260125] - Fixed audio reloading. Audio is initialised over two
   different memory arenas now, one for the platform layer, one for core layer.
   Only core layer gets reloaded.
