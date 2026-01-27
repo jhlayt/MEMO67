@@ -1,4 +1,6 @@
 [changelog]
+  [1152-20260127] - Artwork / levels.
+
   [1151-20260126] - Fixed bug with ui text flag.
 
   [1150-20260125] - Fixed audio reloading. Audio is initialised over two
