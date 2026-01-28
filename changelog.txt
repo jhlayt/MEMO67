@@ -1,4 +1,5 @@
 [changelog]
+  [1154-20260128] - Artwork / levels.
   [1153-20260128] - Implemented audio volume stuff, and master volume
   mute/unmute.
 
