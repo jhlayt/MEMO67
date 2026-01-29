@@ -1,4 +1,6 @@
 [changelog]
+  [1157-20260129] - Fixed bug with resizing on minimise, also added window state
+  tracking (maximised, minimised, restore, etc).
   [1156-20260129] - Fixed the bug with resizing where the depth texure wasn't
   being properly handled if it wasn't a created from @create_default_depth_texture, still needs some work, but minimally working.
   [1155-20260129] - Artwork / levels.
