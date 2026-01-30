@@ -1,4 +1,7 @@
 [changelog]
+  [1160-20260130] - Added 'level_light_arena' to game resource, level that have
+  lights now use that light arena, hopefully no more lighting bugs from
+  forgetting to remove old lights on level change.
   [1159-20260130] - Audio is muted on debug startup now.
 
   [1158-20260129] - More artwork.
