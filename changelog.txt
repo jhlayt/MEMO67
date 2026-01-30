@@ -1,4 +1,6 @@
 [changelog]
+  [1159-20260130] - Audio is muted on debug startup now.
+
   [1158-20260129] - More artwork.
   [1157-20260129] - Fixed bug with resizing on minimise, also added window state
   tracking (maximised, minimised, restore, etc).
