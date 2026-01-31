@@ -1,4 +1,6 @@
 [changelog]
+  [1166-20260131] - Fixed bug with sprite batcher not properly drawing with
+  correct material when batched renderer switched material mid pass.
   [1165-20260131] - Working on adding ui_collection container. Fixed multiple
   bugs with handling batcher/forward ui. Improved a few ui shaders, improvements
   to ui api.
