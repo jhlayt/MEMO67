@@ -1,4 +1,7 @@
 [changelog]
+  [1163-20260131] - Fixed bug with transparency framebuffer attaching depth
+  buffer. Added frame detail cbuf to bloom prepass.
+
   [1162-20260130] - Some improvements to bloom prepass shader.
   [1161-20260130] - Debugging some ssao quality stuff.
   [1160-20260130] - Added 'level_light_arena' to game resource, level that have
@@ -10,7 +13,8 @@
   [1157-20260129] - Fixed bug with resizing on minimise, also added window state
   tracking (maximised, minimised, restore, etc).
   [1156-20260129] - Fixed the bug with resizing where the depth texure wasn't
-  being properly handled if it wasn't a created from @create_default_depth_texture, still needs some work, but minimally working.
+  being properly handled if it wasn't a created from
+  @create_default_depth_texture, still needs some work, but minimally working.
   [1155-20260129] - Artwork / levels.
 
   [1154-20260128] - Artwork / levels.
