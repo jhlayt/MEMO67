@@ -1,4 +1,5 @@
 [changelog]
+  [1164-20260131] - Downres rendering working again.
   [1163-20260131] - Fixed bug with transparency framebuffer attaching depth
   buffer. Added frame detail cbuf to bloom prepass.
 
