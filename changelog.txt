@@ -1,4 +1,5 @@
 [changelog]
+  [1170-20260201] - More ui improvements. Added a few more ui debug visuals.
   [1169-20260201] - Lots of ui improvements, helper funcs, namely some text
   normalising/scaling to ui_dimensions stuff.
   [1168-20260201] - Slider improvements, ui collection improvements, bug fixes,
