@@ -1,4 +1,6 @@
 [changelog]
+  [1174-20260202] - Added input reset all helper func, all keys now reset on
+  window unfocus.
   [1173-20260202] - Fixed bug with destroying ui collections.
   [1172-20260202] - UI collections can now contain sub collections.
 
