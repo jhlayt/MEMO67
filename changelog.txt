@@ -1,4 +1,7 @@
 [changelog]
+  [1177-20260203] - Basics of changing the model architecture to use materials
+  directly, similar to how ui sprites handle materials.
+
   [1176-20260202] - More artwork.
   [1175-20260202] - Artwork. Added variadic str_cmp_v.
   [1174-20260202] - Added input reset all helper func, all keys now reset on
