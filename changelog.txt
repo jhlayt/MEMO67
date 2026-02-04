@@ -1,4 +1,10 @@
 [changelog]
+  [1180-20260204] - Added file hash tracking for resource blobs, this is for
+  hotloading specific files, i.e all shaders, without having to jettison the
+  resource arena and reload everything. Implementation is a bit scrappy but
+  working for what I want, for now. This section of code should get a rewrite
+  when I get around to re-writing my resource bundle stuff for release builds.
+
   [1179-20260203] - Bug fixes, added a new demo scene to test stuff, converting
   textures to .dds now check to make sure textures have multiple of 4 dimensions
   for directx BC compression (requires mul 4), if they don't they get rounded to
