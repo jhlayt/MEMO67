@@ -1,4 +1,10 @@
 [changelog]
+  [1181-20260204] - Added 'stranded_bytes' to memory arena, kinda like
+  intentional soft memory leak (debug only), for hacky things where I need to
+  'free' on the memory arena (which you can't do non-linearly), so I'm just
+  tracking the accumulation, this is only used for targeted resource hotloading,
+  i.e when I reload a single resource - this isn't an issue with full hotloading
+  as I just throw out the entire arena. Kinda bug prone but ok for now.
   [1180-20260204] - Added file hash tracking for resource blobs, this is for
   hotloading specific files, i.e all shaders, without having to jettison the
   resource arena and reload everything. Implementation is a bit scrappy but
