@@ -1,4 +1,6 @@
 [changelog]
+  [1183-20260205] - Bug fixes and cleanup from yesterday.
+
   [1182-20260204] - A lot of changes, mainly that shadow resolution is now moved
   to a prepass (run just before bloom), and no longer part of composite passes.
   This will be slightly faster for the cost of a R32 buffer, but most
