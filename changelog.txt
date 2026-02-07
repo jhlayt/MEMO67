@@ -1,4 +1,6 @@
 [changelog]
+  [1188-20260207] - Frustum culling working again. Fixed a few bugs with
+  transparency/shadow pass still rendering culled meshes.
   [1187-20260207] - Big performance improvements to project cache building.
 
   [1186-20260206] - Testing some demo scenes.
