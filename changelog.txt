@@ -1,4 +1,5 @@
 [changelog]
+  [1192-20260208] - Fixed bug with code hotload.
   [1191-20260208] - Materials with fixed textures (noises etc) now offset before
   rendering to allow for model texture to take slot 0.
 
