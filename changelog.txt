@@ -1,4 +1,5 @@
 [changelog]
+  [1203-20260211] - Some cleanup and testing release build with bundles.
   [1202-20260211] - Bundle loading and reading resources working.
   [1201-20260211] - Compressed bundle writing now working again, just
   implementing the loading side now.
