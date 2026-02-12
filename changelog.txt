@@ -1,4 +1,7 @@
 [changelog]
+  [1205-20260212] - Added build.bat path to build final release build,
+  statically linking all the engine stuff. The final exe on current build is
+  380kb lol (+96mb for bundle data).
   [1204-20260212] - Input layout shaders are now embedded to c arrays and
   compiled along with the platform layer. Can now get resource as a plain blob.
   Updating all hardcoded paths to only use relative paths, or bundles. Release
