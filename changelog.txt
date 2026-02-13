@@ -1,4 +1,6 @@
 [changelog]
+  [1206-20260213] - Cleanup. Simplified memory initial sizes.
+
   [1205-20260212] - Added build.bat path to build final release build,
   statically linking all the engine stuff. The final exe on current build is
   380kb lol (+96mb for bundle data).
