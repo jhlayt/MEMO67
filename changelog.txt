@@ -1,4 +1,8 @@
 [changelog]
+  [1218-20260220] - Various bug fixes. Added screen space sphere around point
+  lights, this is in addition to the normal based point light stuff. Prototyping
+  1-68.
+
   [1217-20260219] - Prototyping 1-67.
   [1216-20260219] - Prototyping 1-66.
   [1215-20260219] - Fixed all dx warnings/errors.
