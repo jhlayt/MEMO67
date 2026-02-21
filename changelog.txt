@@ -1,7 +1,12 @@
 [changelog]
+  [1221-20260221] - Changed how I resize framebuffers, no longer done on ratio
+  changed, (it was losing precision after lots of resizes), now storing a
+  'scale on create' which gets used when resizing. Fixed few other bugs.
+  Adjusting bloom/ssao stuff.
   [1220-20260221] - Bug fixes/bug hunting.
 
-  [1219-20260220] - Improved dir light frustum stuff, added improved point light rendering, now has a screenspace 'glow'. Prototyping 1-69.
+  [1219-20260220] - Improved dir light frustum stuff, added improved point light
+  rendering, now has a screenspace 'glow'. Prototyping 1-69.
   [1218-20260220] - Various bug fixes. Added screen space sphere around point
   lights, this is in addition to the normal based point light stuff. Prototyping
   1-68.
