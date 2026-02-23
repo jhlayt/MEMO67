@@ -1,4 +1,5 @@
 [changelog]
+  [1227-20260223] - Prototyping 1-72.
   [1226-20260223] - Some more shadow stuff.
 
   [1225-20260222] - Fighting shadow mapping encompass frustum stuff again.
