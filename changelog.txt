@@ -1,4 +1,6 @@
 [changelog]
+  [1253-20260228] - Added some outline mesh stuff. Also fixed a bug with
+  build.bat.
   [1252-20260228] - Prototyping 1-90.
   [1251-20260228] - Fixed bug with drawing debug triangle soup.
 
